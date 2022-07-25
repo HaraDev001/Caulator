@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 50%;
+  margin: 70px auto;
+}
+
+.digits {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(60px, auto);
+  background: #d3d3d3;
+}
+
+button {
+  border: 1px solid #d3d3d3;
+  font-size: 15px;
+}
+
+#result {
+  height: 40px;
+  text-align: right;
+  padding-top: 10px;
+  border: none;
+  background: #858695;
+  color: #fff;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.operators {
+  background: #f5913e;
+}
+
+.zero {
+  grid-column: 1/3;
+}
